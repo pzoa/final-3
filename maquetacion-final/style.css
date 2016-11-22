@@ -1,0 +1,107 @@
+.encabezado{
+	background: green;
+	color: white;
+	background: #232b3a;
+	height: 40px;
+}
+
+span{
+	margin-bottom: 20px;
+}
+
+.izq{
+	position: relative;top: 10px;
+	padding: 20px;
+	border-right: white 1px solid;
+}
+
+.dere{
+	padding: 10px;
+	float: right;
+	padding-right:50px;
+	padding-left: 50px;
+	border-left: white 1px solid;
+}
+
+.container{
+	padding-left: 50px;
+}
+
+.logo{
+	border-bottom: #cccccc 2px solid;
+	width: 93%;
+}
+
+h1{
+	text-align: center;
+}
+
+i{
+	position: relative;
+	top: 50px;
+}
+
+.iz{
+	margin-left: 20px;
+
+}
+
+.fa-twitter:before{
+	color: #ff4301;
+}
+
+.naranja{
+	color: #ff4301;
+}
+
+.der{
+	float: right;
+	margin-right: 20px;
+	position: relative;
+	left: 380px;
+	width: 20px;
+}
+
+.nav{
+	width: 92%;
+}
+
+ nav ul li{
+	display: inline-block;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+a{
+	color: #232b3a;
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+footer{
+	width: 92%;
+}
+
+.buscar {
+	background: #f5f5f5;
+	text-align: center;
+	padding: 20px;
+}
+
+.campo{
+	margin-left: 20px;
+	width: 350px;
+	border: #ff4301 1px solid;
+	padding: 10px;
+}
+
+.boton{
+	background: #ff4301;
+	color: white;
+	padding: 10px;
+	margin-left: 20px;
+}
