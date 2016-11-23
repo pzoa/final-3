@@ -28,7 +28,7 @@ span{
 }
 
 .container{
-	padding-left: 50px;
+	padding-left: 90px;
 }
 
 .logo{
@@ -86,7 +86,7 @@ a{
 	padding-right: 30px;
 }
 
-footer{
+.top-footer{
 	width: 92%;
 }
 
@@ -116,12 +116,41 @@ h4 {
 
 .contact {
 	font-size: 16px;
-	background: red;
-	width: 15%;
+	background: blue;
+	width: 18%;
 }
 
 .contact p{
 	font-size: 12px;
 	color: white;
+}
+
+.resto{
+	padding-left: 22%;
+	flex-direction: row;
+}
+
+.cuadro{
+	width: 50px;
+}
+
+.featured{
+	width: 20%;
+}
+
+.tex{
+	float: right;
+}
+
+.cuadrado{
+	background: yellow;
+}
+
+.buscar{
+	width: 90%;
+}
+
+footer {
+	background: red;
 }
 
