@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1400px; }
+
+.top_header {
+  background: #232b3a;
+  padding: 0 20px; }
+  .top_header .container_top_header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .top_header .container_top_header .item_top_header ul {
+      display: flex;
+      padding: 0;
+      margin: 0; }
+      .top_header .container_top_header .item_top_header ul li {
+        list-style: none;
+        padding: 15px 0; }
+        .top_header .container_top_header .item_top_header ul li a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 0.875em;
+          font-weight: bold;
+          margin: 0 20px; }
+          .top_header .container_top_header .item_top_header ul li a .orange {
+            color: #ff4301; }
+      .top_header .container_top_header .item_top_header ul .firs-border {
+        border-right: 1px solid rgba(255, 255, 255, 0.3); }
+      .top_header .container_top_header .item_top_header ul .second-border {
+        border-left: 1px solid rgba(255, 255, 255, 0.3); }
+
+.bottom_header .container_bottom_header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid #ccc; }
+  .bottom_header .container_bottom_header .item_bottom_header a {
+    color: #232b3a;
+    transition: all .5s;
+    font-size: 1.2em; }
+    .bottom_header .container_bottom_header .item_bottom_header a:hover {
+      color: #ff4301; }
+  .bottom_header .container_bottom_header .item_bottom_header .sepa-left {
+    margin-right: 10px; }
+  .bottom_header .container_bottom_header .item_bottom_header .sepa-right {
+    margin-left: 10px; }
+.bottom_header .nav {
+  display: flex;
+  justify-content: center; }
+  .bottom_header .nav ul {
+    display: flex;
+    padding: 0; }
+    .bottom_header .nav ul li {
+      list-style: none;
+      margin: 10px 10px; }
+      .bottom_header .nav ul li a {
+        text-decoration: none;
+        color: #232b3a;
+        font-weight: bold;
+        transition: all .5s; }
+        .bottom_header .nav ul li a:hover {
+          color: #ff4301; }
+      .bottom_header .nav ul li a.active {
+        color: #ff4301; }
+
+.menu-bar {
+  width: 35px;
+  cursor: pointer;
+  display: none; }
+  .menu-bar .uno, .menu-bar .dos, .menu-bar .tres {
+    width: 100%;
+    background: #ff4301;
+    height: 3px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s; }
+  .menu-bar .dos {
+    margin: 5px 0; }
+
+/*animacion*/
+.mostrar .uno {
+  transform: rotate(45deg) translate(5px, 5px); }
+
+.mostrar .dos {
+  opacity: 0; }
+
+.mostrar .tres {
+  transform: rotate(-45deg) translate(6px, -7px); }
+
+.mostrar .menu {
+  visibility: visible;
+  opacity: 1; }
+
+/*-----RESPONSIVE-----*/
+@media screen and (max-width: 48em) {
+  .bottom_header .nav {
+    display: none; }
+  .bottom_header .nav ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .bottom_header .nav ul li a {
+      margin-left: 0;
+      line-height: 50px;
+      color: #232b3a; }
+  .bottom_header .nav.visible {
+    height: 100vh; }
+  .bottom_header .nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: -10;
+    overflow: hidden;
+    height: 0;
+    transition: 0.5s height;
+    -webkit-transition: 0.5s height;
+    -moz-transition: 0.5s height;
+    -ms-transition: 0.5s height; }
+
+  .menu-bar {
+    display: inline-block;
+    float: right;
+    margin-top: 10px; } }
+@media screen and (max-width: 44.6875em) {
+  .top_header {
+    display: none; } }
+@media screen and (max-width: 30em) {
+  .w100 {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    vertical-aling: middle; }
+
+  .bottom_header {
+    flex-direction: column; } }
+
+/*# sourceMappingURL=main.css.map */
