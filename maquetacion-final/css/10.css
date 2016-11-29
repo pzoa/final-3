@@ -88,3 +88,36 @@ h3{
 	color: #ff4301;
 	background-attachment: fixed;
 }
+
+.cuadreo2{
+	height: 300px;
+	width: 50%;
+	background: url(../img/bici.jpg);
+}
+
+.cuadreo2:hover .info{
+	opacity: 1
+
+}
+
+.cuadreo3{
+	height: 300px;
+	width: 50%;
+	background: url(../img/bici2.jpg);
+}
+
+.cuadreo3:hover .info{
+	opacity: 1
+
+}
+
+.cuadreo4{
+	height: 300px;
+	width: 50%;
+	background: url(../img/ciclismo.jpg);
+}
+
+.cuadreo4:hover .info{
+	opacity: 1
+
+}
