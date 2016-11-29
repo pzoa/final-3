@@ -60,7 +60,8 @@ h3{
 .cuadreo1{
 	height: 300px;
 	width: 50%;
-	background: url(../img/promo1.jpg);
+	background: url(../img/promo.jpg);
+	margin-right: 40px;
 }
 
 .info{
@@ -93,6 +94,7 @@ h3{
 	height: 300px;
 	width: 50%;
 	background: url(../img/bici.jpg);
+	margin-right: 40px;
 }
 
 .cuadreo2:hover .info{
@@ -104,6 +106,7 @@ h3{
 	height: 300px;
 	width: 50%;
 	background: url(../img/bici2.jpg);
+	margin-right: 40px;
 }
 
 .cuadreo3:hover .info{
@@ -115,6 +118,7 @@ h3{
 	height: 300px;
 	width: 50%;
 	background: url(../img/ciclismo.jpg);
+
 }
 
 .cuadreo4:hover .info{
