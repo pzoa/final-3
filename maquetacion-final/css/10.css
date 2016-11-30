@@ -126,21 +126,65 @@ h3{
 
 
 /*pestaña 7*/
- .txt {
- 	background: blue;
- }
-
  .cont{
  	height: 150px;
- 	background: red;
- 	margin-left: 20px;
-
+ 	background: #cccccc;
  }
 
  .row {
  	display: flex;
  	justify-content: space-between;
  }
+
+ .cmp{
+ 	margin-left: 15px;
+ 	padding-left: 10px;
+ 	border-top: #ff4301 5px solid;
+ 	background: white;
+ 	font-size: 10px;
+ 	position: relative;
+ 	bottom: 10px;
+ }
+
+ span{
+ 	margin-right: 3px;
+ }
+
+ h5{
+ 	padding-top: 5px;
+ }
+
+ .cmp p{
+ 	margin-top: 10px;
+ }
+
+ .ult{
+ 	margin-left: 6%;
+ }
+
+ .apun{
+ 	width: 50%;
+ 	display: inline-block;
+ }
+
+ .num{
+ 	float: right;
+ 	position: relative;
+ 	right: 7%;
+ 	margin-left: 5px;
+ }
+
+ .num:hover{
+ 	background: #ff4301;
+ 	color: white;	
+ }
+
+ .negrita{
+ 	color: black;
+ }
+
+
+
 
 
 
