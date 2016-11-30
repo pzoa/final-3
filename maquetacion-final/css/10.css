@@ -126,9 +126,17 @@ h3{
 
 
 /*pestaña 7*/
- 
+ .txt {
+ 	background: blue;
+ }
+
  .cont{
  	height: 150px;
  	background: red;
+ 	margin-left: 20px;
 
  }
+
+
+
+
