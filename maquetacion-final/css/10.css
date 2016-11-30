@@ -137,6 +137,11 @@ h3{
 
  }
 
+ .row {
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+
 
 
 
