@@ -199,7 +199,6 @@ h3{
  	border-top: #ff4301 5px solid;
  	background: white;
  	font-size: 10px;
- 	position: relative;
  	bottom: 10px;
  	right: 8%;
  	height: 200px;
@@ -222,6 +221,10 @@ h3{
 .asi{
 	border-bottom: black 2px solid;
 	margin: 20px;
+}
+
+.flex-row {
+	display: flex;
 }
 
 
