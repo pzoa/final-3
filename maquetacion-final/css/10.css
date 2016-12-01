@@ -185,7 +185,7 @@ h3{
 
  /*pagina 8*/
 
-  .co1{
+  .co2{
   	width: 45%;
  	height: 230px;
  	background: #cccccc;
@@ -214,9 +214,7 @@ h3{
 	border: #cccccc 2px solid;
 }
 
-.next{
-	float: right;
-}
+
 
 .asi{
 	border-bottom: black 2px solid;
