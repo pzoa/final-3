@@ -112,6 +112,7 @@ h3{
 }
 
 .cuadreo4{
+	padding-left: 0;
 	height: 300px;
 	width: 50%;
 	background: url(../img/ciclismo.jpg);
@@ -127,7 +128,7 @@ h3{
 
 /*pestaña 7*/
  .cont{
- 	height: 150px;
+ 	height: 200px;
  	background: #cccccc;
  }
 
@@ -203,6 +204,7 @@ h3{
  	right: 8%;
  	height: 200px;
  	top: 20px;
+ 	position: relative;
  }
 
 
@@ -214,7 +216,9 @@ h3{
 	border: #cccccc 2px solid;
 }
 
-
+.next{
+	float: right;
+}
 
 .asi{
 	border-bottom: black 2px solid;
