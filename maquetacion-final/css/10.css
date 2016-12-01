@@ -126,21 +126,107 @@ h3{
 
 
 /*pestaña 7*/
- .txt {
- 	background: blue;
- }
-
  .cont{
  	height: 150px;
- 	background: red;
- 	margin-left: 20px;
-
+ 	background: #cccccc;
  }
 
 .spac-bet {
  	display: flex;
  	justify-content: space-between;
  }
+
+ .cmp{
+ 	margin-left: 15px;
+ 	padding-left: 10px;
+ 	border-top: #ff4301 5px solid;
+ 	background: white;
+ 	font-size: 10px;
+ 	position: relative;
+ 	bottom: 10px;
+ }
+
+ span{
+ 	margin-right: 3px;
+ }
+
+ h5{
+ 	padding-top: 5px;
+ }
+
+ .cmp p{
+ 	margin-top: 10px;
+ }
+
+ .ult{
+ 	margin-left: 6%;
+ }
+
+ .apun{
+ 	width: 50%;
+ 	display: inline-block;
+ }
+
+ .num{
+ 	float: right;
+ 	position: relative;
+ 	right: 7%;
+ 	margin-left: 5px;
+ }
+
+ .num:hover{
+ 	background: #ff4301;
+ 	color: white;	
+ }
+
+ .negrita{
+ 	color: black;
+ }
+
+ /*pagina 8*/
+
+  .co1{
+  	width: 45%;
+ 	height: 230px;
+ 	background: #cccccc;
+ }
+
+  .cm1{
+  	width: 50%;
+  	float: right;
+ 	margin-left: 15px;
+ 	padding-left: 10px;
+ 	border-top: #ff4301 5px solid;
+ 	background: white;
+ 	font-size: 10px;
+ 	position: relative;
+ 	bottom: 10px;
+ 	right: 8%;
+ 	height: 200px;
+ 	top: 20px;
+ }
+
+
+
+.botones {
+	width: 100px;
+	height: 30px;
+	background: white;
+	border: #cccccc 2px solid;
+}
+
+.next{
+	float: right;
+}
+
+.asi{
+	border-bottom: black 2px solid;
+	margin: 20px;
+}
+
+
+
+
 
 
 
