@@ -2,13 +2,13 @@
 .encabezado2{
 	color: white;
 	background: #232b3a;
-	height: 50px;
+	height: 75px;
 	width: 90%;
 	margin: 0 auto;
 	align-items: center;
-	margin-top: 80px;
-	display: flex;
 	justify-content: space-between;
+	display: flex;
+	bottom: 0;
 }
 
 .orange2{
@@ -191,5 +191,10 @@ footer {
 		height: 70px;
 		justify-content: space-around;
 
+	}
+
+	.foot-cont {
+		width: 100%;
+		text-align: center;
 	}
 }
