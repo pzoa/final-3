@@ -22,7 +22,8 @@
   color: #fff;
   padding: 10px 25px;
   border: none;
-  font-weight: 700px; }
+  font-weight: 700px;
+  margin-bottom: 100px; }
 
 @media (max-width: 400px) {
   .error h2 {

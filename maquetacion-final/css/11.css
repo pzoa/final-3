@@ -1,0 +1,11 @@
+ .contact-us p{
+ 	color: #ff4301;
+ }
+
+ .input-mess {
+ 	width: 45%;
+ 	height: 40px;
+ 	border: 1px solid #ebebeb;
+ 	padding-left: 20px;
+ 	margin: 10px;
+ }
