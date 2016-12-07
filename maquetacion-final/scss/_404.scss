@@ -21,7 +21,7 @@ $black : #232b3a;
 	h2 {
 		font-size:26px;
 		font-weight: 700;
-		line-height: 6px;
+		line-height: 26px;
 		color: $black;
 		margin-bottom:40px;
 	}
@@ -33,4 +33,12 @@ $black : #232b3a;
 	padding: 10px 25px;
 	border: none;
 	font-weight: 700px;
+}
+
+@media (max-width: 400px ){
+	.error {
+		h2 {
+			text-align:center
+		}
+	}
 }
