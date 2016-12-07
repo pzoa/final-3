@@ -2,7 +2,7 @@
 .encabezado2{
 	color: white;
 	background: #232b3a;
-	height: 75px;
+	height: 55px;
 	width: 90%;
 	margin: 0 auto;
 	align-items: center;
@@ -26,9 +26,9 @@
 
 .cards{
 	float: right;
-	padding-right:15px;
-	padding-left: 15px;
+	padding-left: 10px;
 	margin-top: 6px;
+	font-size: 20px;
 }
 
 .buscar {
