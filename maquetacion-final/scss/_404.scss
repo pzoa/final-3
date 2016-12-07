@@ -1,0 +1,36 @@
+$orange : #ff4301;
+$white : #fff;
+$black : #232b3a;
+
+.error {
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+
+	h1 {
+		font-size:186px;
+		font-weight: bold;
+		margin: 0;
+		background: url("../img/illidan.jpg")
+		repeat 0 0 white;
+		-webkit-text-fill-color:transparent;
+		-webkit-background-clip:text;
+		background-size: cover;
+	}
+
+	h2 {
+		font-size:26px;
+		font-weight: 700;
+		line-height: 6px;
+		color: $black;
+		margin-bottom:40px;
+	}
+}
+
+.btn-gohome {
+	background-color:$orange;
+	color : $white;
+	padding: 10px 25px;
+	border: none;
+	font-weight: 700px;
+}
