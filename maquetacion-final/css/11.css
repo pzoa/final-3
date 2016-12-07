@@ -65,8 +65,14 @@
  	font-weight: 700;
  }
 
-
-
  .img-info-box img {
  	width: 90px;
  }
+
+@media (max-width: 750px){
+	.input-mess {
+	 	width: 100%;
+	 }
+}
+
+
