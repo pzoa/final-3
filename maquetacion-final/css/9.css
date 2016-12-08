@@ -128,4 +128,8 @@
 	.text-message-com {
 		width: 80%;
 	}
+
+	.img-maria img {
+		padding: 0px 25px;
+	}
 }
