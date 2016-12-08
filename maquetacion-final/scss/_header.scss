@@ -1,6 +1,6 @@
 $blue: #232b3a;
-$orange: #ff4301;
 $white: #fff;
+$orange : #ff4301;
 
 @function em($el,$parent:16px){
 	@return ($el / $parent) * 1em;

@@ -117,12 +117,12 @@ body {
     display: flex;
     justify-content: center;
     background-color: #ccc;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
-    z-index: 1;
+    z-index: -10;
     overflow: hidden;
     height: 0;
     transition: 0.5s height;
@@ -133,10 +133,8 @@ body {
   .menu-bar {
     display: inline-block;
     float: right;
-    margin-top: 10px;
-    z-index: 1;
-    position: relative; } }
-@media screen and (max-width: 45.6875em) {
+    margin-top: 10px; } }
+@media screen and (max-width: 44.6875em) {
   .top_header {
     display: none; } }
 @media screen and (max-width: 30em) {
@@ -148,5 +146,92 @@ body {
 
   .bottom_header {
     flex-direction: column; } }
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .error h1 {
+    font-size: 186px;
+    font-weight: bold;
+    margin: 0;
+    background: url("../img/illidan.jpg") repeat 0 0 white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: cover; }
+  .error h2 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #232b3a;
+    margin-bottom: 40px; }
+
+.btn-gohome {
+  background-color: #ff4301;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  font-weight: 700px; }
+
+@media (max-width: 400px) {
+  .error h2 {
+    text-align: center; } }
+.contact-us {
+  margin-bottom: 70px; }
+  .contact-us p {
+    color: #ff4301; }
+
+.info-11 h2 {
+  padding: 0; }
+
+.input-mess {
+  width: 48%;
+  height: 40px;
+  border: 1px solid #ccc;
+  padding-left: 20px;
+  margin: 10px 10px 10px 0px; }
+
+.mess-h2 {
+  padding: 0; }
+
+.area-text-e {
+  border: 1px solid #ccc;
+  padding-left: 20px;
+  padding-top: 10px;
+  outline: none;
+  resize: none;
+  width: 98%;
+  height: 180px; }
+
+.btn-send {
+  background-color: #ff4301;
+  border: none;
+  color: #fff;
+  line-height: 26px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 20px;
+  margin-top: 30px; }
+
+.media-body .text {
+  font-size: 12px;
+  font-weight: 400;
+  color: #999; }
+  .media-body .text i {
+    color: #ff4301;
+    margin-right: 7px; }
+.media-body .text-2 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ff4301; }
+.media-body .james {
+  font-size: 14px;
+  font-weight: 700; }
+
+.img-info-box img {
+  width: 90px; }
+
+@media (max-width: 750px) {
+  .input-mess {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
