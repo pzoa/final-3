@@ -13,7 +13,7 @@
  .input-mess {
  	width: 48%;
  	height: 40px;
- 	border: 1px solid #ebebeb;
+ 	border: 1px solid #ccc;
  	padding-left: 20px;
  	margin: 10px 10px 10px 0px;
  }
@@ -23,7 +23,7 @@
  }
 
  .area-text-e {
- 	border: 1px solid #ebebeb;
+ 	border: 1px solid #ccc;
  	padding-left: 20px;
  	padding-top: 10px;
  	outline: none;
