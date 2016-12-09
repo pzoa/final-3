@@ -139,6 +139,53 @@ h3{
  	background: #cccccc;
  }
 
+ .ma1{
+ 	background-image: url("../img/images (2).jpg");
+ 	background-size: cover;
+ }
+
+ .ma2{
+ 	background-image: url("../img/images (1).jpg");
+ 	background-size: cover;
+ }
+
+  .ma3{
+ 	background-image: url("../img/descarga.jpg");
+ 	background-size: cover;
+ }
+
+  .ma4{
+ 	background-image: url("../img/images (4).jpg");
+ 	background-size: cover;
+ }
+
+  .ma5{
+ 	background-image: url("../img/images (7).jpg");
+ 	background-size: cover;
+ }
+
+  .ma6{
+ 	background-image: url("../img/images (8).jpg");
+ 	background-size: cover;
+ }
+
+
+  .ma7{
+ 	background-image: url("../img/images (5).jpg");
+ 	background-size: cover;
+ }
+
+  .ma8{
+ 	background-image: url("../img/descarga (1).jpg");
+ 	background-size: cover;
+ }
+
+  .ma9{
+ 	background-image: url("../img/images (3).jpg");
+ 	background-size: cover;
+ }
+
+
 .spac-bet {
  	display: flex;
  	justify-content: space-between;
@@ -171,7 +218,7 @@ h3{
  }
 
  .apun{
- 	width: 50%;
+ 	width: 40%;
  	display: inline-block;
  }
 
@@ -429,12 +476,12 @@ h3{
 }
 .cuad7{
 	height: 250px;
-	background: url("../img/images (1).jpg");
+	background: url("../img/S_291801-MLA20402014641_092015-Y.jpg");
  	background-size: cover;
 }
 .cuad8{
 	height: 250px;
-	background: url("../img/images.jpg");
+	background: url("../img/spa_pl_Zapatillas-de-baloncesto-Hyperdunk-2015--8006_2.jpg");
  	background-size: cover;
 }
 .cuad9{

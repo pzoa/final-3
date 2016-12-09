@@ -1,0 +1,91 @@
+$grey : #ccc;
+$orange : #ff4301;
+$white : #fff;
+$lightgrey: #999;
+
+
+
+
+.contact-us {
+	margin-bottom: 70px;
+
+	p {
+		color: $orange;
+	}
+}
+
+.info-11 h2 {
+	padding: 0;
+}
+
+.input-mess {
+	width: 48%;
+ 	height: 40px;
+ 	border: 1px solid $grey;
+ 	padding-left: 20px;
+ 	margin: 10px 10px 10px 0px;
+}
+
+.mess-h2 {
+	padding:0;
+}
+
+.area-text-e {
+	border: 1px solid $grey;
+ 	padding-left: 20px;
+ 	padding-top: 10px;
+ 	outline: none;
+ 	resize: none;
+ 	width: 98%;
+ 	height: 180px;
+}
+
+.btn-send {
+	background-color: $orange;
+ 	border: none;
+ 	color: $white;
+ 	line-height: 26px;
+ 	font-size: 14px;
+ 	font-weight: 700;
+ 	padding: 5px 20px;
+ 	margin-top: 30px;
+}
+
+.media-body {
+
+	.text {
+		font-size:12px;
+		font-weight: 400;
+		color: $lightgrey;
+
+		i {
+			color: $orange;
+			margin-right: 7px;
+		}
+	}
+
+	
+
+	.text-2 {
+		font-size:12px;
+		font-weight:400;
+		color: $orange;
+	}
+
+	.james {
+		font-size: 14px;
+		font-weight: 700;
+	}
+
+}
+
+.img-info-box img {
+	width:90px;
+}
+
+
+@media (max-width:750px){
+	.input-mess {
+		width:100%;
+	}
+}
