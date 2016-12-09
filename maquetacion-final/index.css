@@ -1,0 +1,280 @@
+
+/*=============================================
+INICIA EL SLIDE
+=============================================*/
+
+#slide{
+	position:relative;
+	margin:auto;
+	width:100%;
+	overflow: hidden;
+}
+
+#slide ul{
+	position:relative;
+	margin:auto;
+	height:auto;
+	width:100%;
+	padding: 0;
+}
+
+#slide ul li{
+	float:left;
+	width:25%;
+	list-style: none;
+}
+
+#slide ul li img{
+	width:100%;
+}
+
+#slide ul li .caption{
+	position:absolute;
+	width:100%;
+	top:50%;
+	left: 100px;
+	z-index:1;
+	color:white;
+}
+
+#slide ul li .caption h2{
+	padding-left: 0;
+}
+
+#left{
+	position:absolute;
+	top:50%;
+	left:0;
+	font-size:1em;
+	color:black;
+	cursor:pointer;
+	color: white;
+	background: #232b3a;
+	padding: 8px 10px;
+}
+
+#right{
+	position:absolute;
+	top:50%;
+	right:0;
+	font-size:1em;
+	color:black;
+	cursor:pointer;
+	color: white;
+	background: #ff4301;
+	padding: 8px 10px;
+
+}
+			
+/*=====  FINALIZA EL SLIDE ======*/
+
+.home_collection{
+	padding: 50px 0;
+}
+
+.item_home_collection h3, .item_home_collection p{
+	text-align: left;
+}
+.container_home_collection{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+
+.right{
+	margin-left: 80px;
+}
+
+.item_home_collection{
+	width: 45%;
+	height: 50%;
+	position: relative;
+}
+
+.item_home_collection img{
+	width: 100%;
+	display: block;
+}
+
+.item_home_collection img:first-child{
+	border: solid 5px white;
+}
+
+.item_home_collection img:last-child{
+	position: absolute;
+	top: 0;
+	left: 50px;
+	z-index: -10;
+}
+
+.item_home_collection-2{
+	width: 40%;
+}
+
+.item_home_collection-2 img{
+	width: 100%;
+	display: block;
+}
+
+.item_home_collection-2 h3, .item_home_collection-2 p{
+	text-align: right;
+}
+
+.top{
+	margin-top: 80px;
+}
+
+.product_home{
+	padding: 50px 0 60px 0;
+}
+
+.product_home h3{
+	text-align: center;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+.clic_product_home{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#active-clic{
+	color: #fff;
+	background: #ff4301;
+} 
+.clic_product_home a{
+	text-align: center;
+	border: 1px solid #ccc;
+	padding: 5px 20px;
+	color: #232b3a;
+	text-decoration: none;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	background: #fff;
+	margin: 0 10px;
+	transition: all .3s;
+}
+
+.clic_product_home a:hover{
+	background: #ff4301;
+	color: #fff;
+}
+
+.container_product_home{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.item_produc_home{
+	width: 18%;
+	text-align: center;
+}
+
+.item_produc_home h4{
+	color: #232b3a;
+	font-size: 1em;
+	font-family: sans-serif;
+	margin-bottom: 5px;
+}
+
+.item_produc_home small{
+	color: #ff4301;
+	font-weight: bold;
+}
+
+.item_produc_home img{
+	display: block;
+	width: 100%;
+}
+
+.sponsor{
+	padding: 80px 0;
+}
+
+.container_sponsor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.item_sponsor{
+	width: 15%;
+}
+
+.item_sponsor img{
+	width: 100%;
+	display: block;
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.item_sponsor img:hover{
+	-webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.home_blog{
+	padding-bottom: 200px;
+}
+
+.container_home_blog{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.item_home_blog{
+	width: 32%;
+	position: relative;
+}
+
+.item_home_blog img{
+	width: 100%;
+	display: block;
+}
+
+.info_item_home_blog{
+	position: absolute;
+	top: 220px;
+	right: 0;
+	width: 90%;
+	border-top: 2px solid #ff4301;
+	background: #fff;
+	padding-left: 20px;
+}
+
+@media screen and (max-width: 480px){
+	.container_product_home {
+	    flex-wrap: wrap;
+	}
+	.item_produc_home {
+    	width: 100%;
+    	margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.container_sponsor {
+    	flex-wrap: wrap;
+	}
+	.item_sponsor {
+    	width: 30%;
+    	margin-bottom: 40px;
+	}
+
+	.container_home_blog {
+    	flex-wrap: wrap;
+	}
+
+	.item_home_blog {
+    	width: 100%;
+    	margin-bottom: 30px;
+	}
+	.info_item_home_blog {
+	    position: absolute;
+		top: 77%;
+	    width: 90%;
+	}
+}
