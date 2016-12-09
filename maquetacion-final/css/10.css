@@ -1,3 +1,66 @@
+/*pestaña 3*/
+
+.pre-1{
+	background: url("../img/pre-1.jpg");
+	background-size: cover;
+}
+
+.pre-2{
+	background: url("../img/pre-2.jpg");
+	background-size: cover;
+}
+
+.pre-3{
+	background: url("../img/pre-3.jpg");
+	background-size: cover;
+}
+
+.pre-4{
+	background: url("../img/pre-4.jpg");
+	background-size: cover;
+}
+
+.pre-5{
+	background: url("../img/pre-5.jpg");
+	background-size: cover;
+}
+
+.pre-6{
+	background: url("../img/pre-6.jpg");
+	background-size: cover;
+}
+
+.pre-7{
+	background: url("../img/pre-7.jpg");
+	background-size: cover;
+}
+
+.pre-8{
+	background: url("../img/pre-8.jpg");
+	background-size: cover;
+}
+
+.pre-9{
+	background: url("../img/pre-9.jpg");
+	background-size: cover;
+}
+
+.pre-10{
+	background: url("../img/pre-10.jpg");
+	background-size: cover;
+}
+
+.pre-11{
+	background: url("../img/pre-11.jpg");
+	background-size: cover;
+}
+
+.pre-12{
+	background: url("../img/pre-12.jpg");
+	background-size: cover;
+}
+
+
 /*pestaña 10*/
 
 .azul{
@@ -439,7 +502,6 @@ h3{
 
 .cuad{
 	height: 250px;
-	background: #d7d7d7;
 }
 
 
